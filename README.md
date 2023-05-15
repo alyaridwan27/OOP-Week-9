@@ -119,6 +119,8 @@ public int getQuantity() {return quantity;}
 (c) (i) Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and Sales classes.
 
 Note: There is no need to include mutator or accessor methods or a constructor. (4 points)
+<img width="544" alt="Screen Shot 2023-05-15 at 11 33 58" src="https://github.com/alyaridwan27/OOP-Week-9/assets/114371692/1a950c3e-11f9-4bb2-ade4-a17dae1c53f6">
+
 
 (c) (ii) Outline a negative effect that a future change in the design of the Sales object might have on this suite of programs. (2 points)
 If there are any future changes to the Sales object's design such as adding or removing instance variables or methods, it could negatively affect the suite of programs as a whole. This is because the SalesPerson class or other classes that depend on the Sales class may need to be modified to accommodate the changes. For example, if a new instance variable is added to the Sales class, the SalesPerson class may need to be modified to adjust to this change. If the changes are not implemented correctly, it could lead to errors or unexpected behavior in the program. Furthermore, any other classes that rely on the Sales class may also require modification to adapt to the changes, which could be a time-consuming and error-prone process.
